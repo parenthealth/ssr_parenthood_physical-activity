@@ -24,19 +24,18 @@ The paper by Linden, P.; Reibling, N. & Kuhhirt, M. with the DOI: 10.1016/j.ssre
 ### Directories
 
 `\1_scripts`
-:  scripts for replicating the analysis
-	`\scripts`
-	: scripts
+:  scripts for replicating the analysis <br />
+- `\cpf` : CPF data  <br />
+- `\pa` : Physical activity data
 	
 `\2_rdta`
 : folder for raw data
 
 `\3_pdta`
 : processed data
-	`\cpf`
-	: CPF data
-	`\pa`
-	: Physical activity data	
+
+`\4_output`
+: output (logs, tables & figures)
 
 ---
 
@@ -44,7 +43,7 @@ The paper by Linden, P.; Reibling, N. & Kuhhirt, M. with the DOI: 10.1016/j.ssre
 
 This repository contains the code for the analysis in the paper entitled "The effect of parenthood on weekly physical activity in four OECD countries – A longitudinal analysis" which is published under open access in [Social Sciences Research](https://www.sciencedirect.com/science/article/pii/S0049089X25001668).
 
-The data for this analysis comes from harmonized data from four longitudinal household surveys: the Household, Income and Labour Dynamics [HILDA](https://melbourneinstitute.unimelb.edu.au/hilda) for Australia, the Panel Study of Income Dynamics [PSID](https://psidonline.isr.umich.edu/) for the US, the Swiss Household Panel [SHP](https://forscenter.ch/projekte/swiss-household-panel/?lang=de) for Switzerland and the Socio-Economic Panel [SOEP](https://www.diw.de/en/diw_01.c.615551.en/research_infrastructure__socio-economic_panel__soep.html) for Germany. Harmonization of covariates was achieved by adapting procedures from [Turek et al. 2021](https://academic.oup.com/esr/article/37/3/505/6168670). Please referto the [CPF project](https://cpfdata.com/) for details. After harmonization and preparation of the data sets, we were able to analyze a sample of N=111,331 person-years over a time period from 1999-2019 (20 years).
+The data for this analysis comes from harmonized data from four longitudinal household surveys: the Household, Income and Labour Dynamics [HILDA](https://melbourneinstitute.unimelb.edu.au/hilda) for Australia, the Panel Study of Income Dynamics [PSID](https://psidonline.isr.umich.edu/) for the U.S., the Swiss Household Panel [SHP](https://forscenter.ch/projekte/swiss-household-panel/?lang=de) for Switzerland and the Socio-Economic Panel [SOEP](https://www.diw.de/en/diw_01.c.615551.en/research_infrastructure__socio-economic_panel__soep.html) for Germany. Harmonization of covariates was achieved by adapting procedures from [Turek et al. 2021](https://academic.oup.com/esr/article/37/3/505/6168670). Please referto the [CPF project](https://cpfdata.com/) for details. After harmonization and preparation of the data sets, we were able to analyze a sample of N=111,331 person-years over a time period from 1999-2019 (20 years).
 
 ---
 
