@@ -27,8 +27,10 @@ The paper by Linden, P.; Reibling, N. & Kuhhirt, M. with the DOI: 10.1016/j.ssre
 :  scripts for replicating the analysis
 	`\scripts`
 	: scripts
+	
 `\2_rdta`
 : folder for raw data
+
 `\3_pdta`
 : processed data
 	`\cpf`
