@@ -43,7 +43,7 @@ The paper by Linden, P.; Reibling, N. & Kuhhirt, M. with the DOI: 10.1016/j.ssre
 
 This repository contains the code for the analysis in the paper entitled "The effect of parenthood on weekly physical activity in four OECD countries – A longitudinal analysis" which is published under open access in [Social Sciences Research](https://www.sciencedirect.com/science/article/pii/S0049089X25001668).
 
-The data for this analysis comes from harmonized data from four longitudinal household surveys: the Household, Income and Labour Dynamics [HILDA](https://melbourneinstitute.unimelb.edu.au/hilda) for Australia, the Panel Study of Income Dynamics [PSID](https://psidonline.isr.umich.edu/) for the U.S., the Swiss Household Panel [SHP](https://forscenter.ch/projekte/swiss-household-panel/?lang=de) for Switzerland and the Socio-Economic Panel [SOEP](https://www.diw.de/en/diw_01.c.615551.en/research_infrastructure__socio-economic_panel__soep.html) for Germany. Harmonization of covariates was achieved by adapting procedures from [Turek et al. 2021](https://academic.oup.com/esr/article/37/3/505/6168670). Please referto the [CPF project](https://cpfdata.com/) for details. After harmonization and preparation of the data sets, we were able to analyze a sample of N=111,331 person-years over a time period from 1999-2019 (20 years).
+The data for this analysis comes from harmonized data from four longitudinal household surveys: the Household, Income and Labour Dynamics [HILDA](https://melbourneinstitute.unimelb.edu.au/hilda) for Australia, the Panel Study of Income Dynamics [PSID](https://psidonline.isr.umich.edu/) for the U.S., the Swiss Household Panel [SHP](https://forscenter.ch/projekte/swiss-household-panel/?lang=de) for Switzerland and the Socio-Economic Panel [SOEP](https://www.diw.de/en/diw_01.c.615551.en/research_infrastructure__socio-economic_panel__soep.html) for Germany. Harmonization of covariates was achieved by adapting procedures from [Turek et al. 2021](https://academic.oup.com/esr/article/37/3/505/6168670). Please refer to the [CPF project](https://cpfdata.com/) for details. After harmonization and preparation of the data sets, we were able to analyze a sample of N=111,331 person-years over a time period from 1999-2019 (20 years).
 
 ---
 
@@ -60,5 +60,7 @@ All analysis were done in Stata 16 and under Windows 11. Please follow the steps
 	- SOEP: Socio-economic Panel (SOEP), Data of 1984-2019, (SOEP-Core, v36, EU Edition), DOI: 10.5684/soep.core.v36eu
 Practical information on accessing the data and storing it on your personal storage device can be found in the Master-Do file under section #4.
 4. After setting up the raw data, run the rest of the CPF master do-File. You should now have created a CPF dataset (CPF-pa.dta) with harmonized covariates within the folder 3_pdta\cpf\01cpf-out.
-5. Run the file 00master-ph-exercise-com in 1_scripts\pa to construct and analyze the harmonized dataset. All log-files, tables and figures should then be available in the specific subfolders.
+5. Run the file 00master-ph-exercise-com in 1_scripts\pa to construct and analyze the harmonized dataset. All log-files, tables and figures should then be available in the output folder.
+
+Please mail to [Linden Research](mailto:research@linden-online.com) if anything is not working properly.
 
