@@ -52,12 +52,13 @@ global ps "exercise-com"
 
 * -> Retrieve c(username) by typing disp "`c(username)'" in command line
 
-if "`c(username)'" == "Linden" {
-	global wdir "C:\Users\Linden\Documents\GitHub\01-research\parenthealth\ssr_parenthood_physical-activity"
+if "`c(username)'" == "[YOUR USER NAME]" {
+	global wdir "[PATH WHERE REPO IS SAVED]"
 }
 
-if "`c(username)'" == "Linden" {
-	global rdta "C:\Users\Linden\Documents\GitHub\01-research\parenthealth\ssr_parenthood_physical-activity\2_rdta"
+
+if "`c(username)'" == "[YOUR USER NAME]" {
+	global wdir "[PATH WHERE REPO IS SAVED]\2_rdta"
 }
 
 /*------------------------------------------------------------------------------

@@ -89,8 +89,8 @@ global ps "-cpf-data"
 * -> Retrieve c(username) by typing disp "`c(username)'" in command line
 * -> Set global wdir as path, where repo is saved
 
-if "`c(username)'" == "Linden" {
-	global wdir "C:\Users\Linden\Documents\GitHub\01-research\parenthealth\ssr_parenthood_physical-activity"
+if "`c(username)'" == "[YOUR USER NAME]" {
+	global wdir "[PATH WHERE REPO IS SAVED]"
 }
 
 * create survey-specific folder names for raw data
