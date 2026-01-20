@@ -1,0 +1,12 @@
+# Stata data
+*.dta
+*.dct
+
+*.zip
+*.sps
+*.txt
+*.sas
+*.csv
+
+# Mac folder file
+.DS_Store
