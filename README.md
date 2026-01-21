@@ -54,11 +54,11 @@ All analysis were done in Stata 16 and under Windows 11. Please follow the steps
 1. Fork the repository / Sync fork if necessary
 2. Open the file 00cr-cpf-master.do in 1_scripts\cpf to construct the CPF file for harmonized covariates over the four countries. Within the file note that you need to insert the raw data sets (see next step).
 3. Since the data sets are not publicly accessible, we cannot provide data files within this repository. To access the data, you must register on the homepage of the data hosting institutions and/or complete a data use agreement. Please note also that the data used in this analysis refers to specific file versions:
-	- HILDA: The Household, Income and Labour Dynamics in Australia (HILDA) Survey, GENERAL RELEASE 21 (Waves 1-21) DOI: 10.26193/KXNEBO
-	- PSID: Panel Study of Income Dynamics, Cross-year Individual Files 1968-2019
-	- SHP: Living in Switzerland Waves 1-21, DOI: 10.23662/FORS-DS-932-6
-	- SOEP: Socio-economic Panel (SOEP), Data of 1984-2019, (SOEP-Core, v36, EU Edition), DOI: 10.5684/soep.core.v36eu
-Practical information on accessing the data and storing it on your personal storage device can be found in the Master-Do file under section #4.
+	- HILDA: The Household, Income and Labour Dynamics in Australia (HILDA) Survey, GENERAL RELEASE 21 (Waves 1-21) DOI: 10.26193/KXNEBO.
+	- PSID: Panel Study of Income Dynamics, Cross-year Individual Files 1968-2019.
+	- SHP: Living in Switzerland Waves 1-21, DOI: 10.23662/FORS-DS-932-6.
+	- SOEP: Socio-economic Panel (SOEP), Data of 1984-2019, (SOEP-Core, v36, EU Edition), DOI: 10.5684/soep.core.v36eu. <br />
+	- Practical information on accessing the data and storing it on your personal storage device can be found in the Master-Do file under section #4.
 4. After setting up the raw data, run the rest of the CPF master do-File. You should now have created a CPF dataset (CPF-pa.dta) with harmonized covariates within the folder 3_pdta\cpf\01cpf-out.
 5. Run the file 00master-ph-exercise-com in 1_scripts\pa to construct and analyze the harmonized dataset. All log-files, tables and figures should then be available in the output folder.
 
